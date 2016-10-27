@@ -19,6 +19,7 @@ def draw_flower(flowernumber):
     window.bgcolor('green')
 
     brad = turtle.Turtle()
+    brad.speed(0)
 
     for i in range(flowernumber):
         draw_square(brad)
@@ -27,4 +28,4 @@ def draw_flower(flowernumber):
     window.exitonclick()
 
     
-draw_flower(20)
+draw_flower(36)
